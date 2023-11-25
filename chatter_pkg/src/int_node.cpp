@@ -9,7 +9,7 @@ int main(int argc, char **argv)
 
   ros::Publisher int_pub = n.advertise<std_msgs::Int32>("int_count", 20);
 
-  ros::Rate loop_rate(20);
+  ros::Rate loop_rate(5);
 
 
   int count = 19;
